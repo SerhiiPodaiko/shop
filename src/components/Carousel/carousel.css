@@ -1,0 +1,42 @@
+.carousel {
+    width: 100%;
+    height: 490px;
+    background: url("../../imgs/carousel/carousel.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel h1 {
+    font-size: 60px;
+    color: #cccece;
+}
+
+.carousel p, span {
+    font-size: 14px;
+    color: #cccece;
+}
+
+.carousel button {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background: #f98561;
+    font-family: 'Ubuntu', sans-serif;
+    outline: none;
+    border: none;
+    height: 50px;
+    max-width: 250px;
+    width: 100%;
+    color: #ffebca;
+    text-transform: uppercase;
+}
+
+.carousel button:hover {
+    background: transparent;
+    border: 2px solid #f98561;
+    transition: .4s ease;
+    color: #f98561;
+}
