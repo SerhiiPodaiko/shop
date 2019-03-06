@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './testimonials.css';
 import man from '../../imgs/testimonials/man.png';
 import woomen from '../../imgs/testimonials/woomen.png';
@@ -13,6 +13,7 @@ export default class Testimonials extends Component {
                     <div className="row">
                         <div className="col-sm-12">
                             <hr/>
+                            {/*dhmsejs*/}
                             <div className="testimonials_inner d-flex flex-column align-items-center justify-content-center">
                                 <h3>Testimonials</h3>
                                 <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris necip
