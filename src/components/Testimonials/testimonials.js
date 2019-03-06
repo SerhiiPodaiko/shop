@@ -11,16 +11,15 @@ export default class Testimonials extends Component {
             <div className="testimonials">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12">
+                        <div className="col-12">
                             <hr/>
-                            {/*dhmsejs*/}
                             <div className="testimonials_inner d-flex flex-column align-items-center justify-content-center">
                                 <h3>Testimonials</h3>
                                 <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris necip
                                     at lacus commodo suscipit praesent sollicitudin enim vel mirhon”</p>
                             </div>
                         </div>
-                        <div className="col-sm-12">
+                        <div className="col-12">
                             <div className="testimonials_icon d-flex flex-column align-items-center justify-content-center">
                                 <p>Jon Doe / CEO of LoremIpsum</p>
                                 <div className="wrapper">

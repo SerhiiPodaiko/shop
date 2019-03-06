@@ -22,7 +22,7 @@
 .carousel button {
     display: flex;
     justify-content: center;
-    height: 100%;
+    max-height: 100%;
     background: #f98561;
     font-family: 'Ubuntu', sans-serif;
     outline: none;
@@ -39,4 +39,14 @@
     border: 2px solid #f98561;
     transition: .4s ease;
     color: #f98561;
+}
+/*adaptive*/
+@media (min-width: 0px) and (max-width: 767.98px) {
+    .carousel p, span {
+        font-size: 2vw;
+    }
+
+    .carousel h1 {
+        font-size: 40px;
+    }
 }

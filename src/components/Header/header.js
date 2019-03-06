@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './header.css';
 import square from '../../imgs/header/square.png';
 import circle from '../../imgs/header/circle.png';
@@ -9,14 +9,14 @@ export default class Header extends Component {
                 <header>
                     <div className="container">
                         <div className="row">
-                            <div className="col-sm-3">
+                            <div className="col-md-3">
                                 <div className="logo">
                                     <img src={circle} alt="circle"/>
                                     <img src={square} alt="square"/>
                                     <span>Your Logo</span>
                                 </div>
                             </div>
-                            <div className="col-sm-7">
+                            <div className="col-md-7 col-sm-7 col-6">
                                 <div className="navigation">
                                     <nav>
                                         <ul className="list-group list-group-horizontal">
@@ -29,7 +29,7 @@ export default class Header extends Component {
                                     </nav>
                                 </div>
                             </div>
-                            <div className="col-sm-2">
+                            <div className="col-md-2 col-sm-5 col-6">
                                 <div className="search">
                                     <span>Search</span>
                                 </div>

@@ -1,5 +1,7 @@
 header {
     height: 80px;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -82,4 +84,21 @@ li {
     cursor: pointer;
     transition: .2s ease;
     opacity: 1;
+}
+/*adaptive*/
+@media (min-width: 0px) and (max-width: 767.98px) {
+    .logo {
+        display: none;
+    }
+
+    .search {
+        float: right;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navigation li:not(:first-child) {
+        display: none;
+    }
 }
