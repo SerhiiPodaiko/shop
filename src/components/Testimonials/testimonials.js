@@ -2,13 +2,18 @@ import React, {Component} from 'react';
 import './testimonials.css';
 import man from '../../imgs/testimonials/man.png';
 import woomen from '../../imgs/testimonials/woomen.png';
+import WOW from "wowjs";
 
 
 export default class Testimonials extends Component {
 
+    componentDidMount(){
+        new WOW.WOW().init();
+    }
+
     render() {
         return(
-            <div className="testimonials">
+            <div className="testimonials wow slideInUp">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

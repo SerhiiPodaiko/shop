@@ -1,13 +1,19 @@
 import React, {Component} from 'react';
 import './portfolio.css';
 import icon_photo from '../../imgs/portfolio/icon_photo.png';
+import WOW from "wowjs";
 
 
 export default class Portfolio extends Component {
 
+    componentDidMount(){
+        new WOW.WOW().init();
+    }
+
+
     render() {
         return(
-            <div className="portfolio">
+            <div className="portfolio wow slideInUp">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-6 col-8">

@@ -4,12 +4,17 @@ import icon_first from '../../imgs/services/icon_first.png';
 import icon_second from '../../imgs/services/icon_second.png';
 import icon_third from '../../imgs/services/icon_third.png';
 import icon_fourth from '../../imgs/services/icon_fourth.png';
+import WOW from "wowjs";
 
 export default class Services extends Component {
 
+    componentDidMount(){
+        new WOW.WOW().init();
+    }
+
     render() {
         return(
-            <div className="services">
+            <div className="services wow slideInUp delay-2s">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-3 col-6">

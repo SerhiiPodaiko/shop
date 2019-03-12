@@ -1,0 +1,82 @@
+.contact {
+    background: #f4f4f4;
+}
+
+.contact h2 {
+    font-size: 50px;
+    color: #2190c1;
+    margin-top: 40px;
+}
+
+.contact p {
+    font-size: 13px;
+    color: #515862;
+}
+
+.map h2 {
+    font-size: 30px;
+    color: #515862;
+}
+
+.map > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 50px 0;
+}
+
+.map > div > img {
+    opacity: 0.6;
+}
+
+.map > div > img:hover {
+    opacity: 1;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.form input {
+    outline: none;
+    border: none;
+    text-indent: 8px;
+    width: 100%;
+    height: 40px;
+}
+
+.form p {
+    padding-top: 20px;
+}
+
+.form input:hover {
+    cursor: pointer;
+}
+
+.form input:focus {
+    border: 1px solid #000;
+}
+
+#message {
+    height: 100px;
+}
+
+.form button {
+    padding: 10px 30px;
+    background: #2190c1;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin: 20px 0 40px 0;
+}
+
+.form button:hover {
+    border: 2px solid #2190c1;
+    background: transparent;
+    transition: .4s;
+    color: #2190c1;
+    border-radius: 4px;
+}
+
+.form, .map {
+    margin-top: 70px;
+}

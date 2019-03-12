@@ -1,17 +1,22 @@
 import React, {Component} from 'react';
 import './footer.css';
+import WOW from "wowjs";
 // import man from '../../imgs/testimonials/man.png';
 
 
 
 export default class Footer extends Component {
 
+    componentDidMount(){
+        new WOW.WOW().init();
+    }
+
     render() {
         return(
            <footer>
                <div className="container">
                    <div className="row">
-                       <div className="col-sm-3 col-12">
+                       <div className="col-sm-3 col-12 wow slideInLeft delay-1s">
                            <div className="footer_info">
                                <h3>Twitter FEEDs</h3>
                                <p>Check out this great theme item</p>
@@ -27,7 +32,7 @@ export default class Footer extends Component {
                                <p>2 weeks ago</p>
                            </div>
                        </div>
-                       <div className="col-sm-3 col-12">
+                       <div className="col-sm-3 col-12 wow slideInLeft delay-1s">
                            <div className="footer_info">
                                <h3>NEWSLETTER</h3>
                                <p>Lorem ipsum dolor sit amet, consectetur adip
@@ -39,7 +44,7 @@ export default class Footer extends Component {
                                <button>Sign Up</button>
                            </div>
                        </div>
-                       <div className="col-sm-3 col-12">
+                       <div className="col-sm-3 col-12 wow slideInRight delay-1s">
                            <div className="footer_info">
                                <h3>recent projects</h3>
                                <p>Sketchy Business Card</p>
@@ -55,7 +60,7 @@ export default class Footer extends Component {
                                <p>2 weeks ago</p>
                            </div>
                        </div>
-                       <div className="col-sm-3 col-12">
+                       <div className="col-sm-3 col-12 wow slideInRight delay-1s">
                            <div className="footer_info">
                                <h3>Contact</h3>
                                <p>1 - 000 - 000-0000</p>
